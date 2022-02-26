@@ -1,3 +1,5 @@
+// Api usado para consumir arquivos
+
 fetch('http//localhost8080/data.json')
     .then (responseStream =>{
         if(responseStream.status ===200){
